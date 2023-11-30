@@ -73,21 +73,21 @@ class _HomeScreenState extends State<HomeScreen> {
                     child: Column(
                       children: [
                         Text(
-                          "Здохло: ${data[0]}",
+                          "Здохло Орків: ${data[0]}",
                           style: const TextStyle(
                               fontSize: 24,
                               fontWeight: FontWeight.bold,
                               color: Colors.red),
                         ),
                         Text(
-                          "Згоріло: ${data[1]}",
+                          "Згоріло Танків: ${data[1]}",
                           style: const TextStyle(
                               fontSize: 24,
                               fontWeight: FontWeight.bold,
                               color: Colors.red),
                         ),
                         Text(
-                          "Згоріло: ${data[2]}",
+                          "Згоріло Літаків: ${data[2]}",
                           style: const TextStyle(
                               fontSize: 24,
                               fontWeight: FontWeight.bold,
